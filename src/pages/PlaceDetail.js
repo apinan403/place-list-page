@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Header from "../components/AppBarHeader";
 
@@ -11,7 +10,7 @@ export default function PlaceDetail() {
                 <title>Place Detail</title>
             </Helmet>
 
-            <Container maxWidth="xl">
+            <Container maxWidth="xxl">
                 <div>
                     <Header />
                 </div>
